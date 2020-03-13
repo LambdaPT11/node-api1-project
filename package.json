@@ -1,0 +1,29 @@
+{
+  "name": "api1-project",
+  "version": "1.0.0",
+  "description": "api1-seting-up-server",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaPT11/node-api1-project.git"
+  },
+  "author": "mason-roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LambdaPT11/node-api1-project/issues"
+  },
+  "homepage": "https://github.com/LambdaPT11/node-api1-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "path": "^0.12.7",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
